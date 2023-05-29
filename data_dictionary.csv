@@ -1,0 +1,24 @@
+Feature,Type,Description
+family,Nominal,Family name of the mushroom
+name,Nominal,Species name of the mushroom
+class,Complex,"Two boolean features: poisonous = p, edible = e"
+cap-diameter,Float,Measurement in cm
+cap-shape,Nominal,"bell = b, cone = c, convex = x, flat = f, sunken = s, spherical = p,  others = o"
+cap-surface,Nominal,"fibrous=i, grooves=g, scaly=y, smooth=s, shiny=h, leathery=l, silky=k, sticky=t, wrinkled=w, fleshy=e"
+cap-color,Nominal,"brown=n, buff=b, gray=g, green=r, pink=p, purple=u, red=e, white=w, yellow=y, blue=l, orange=o, black=k"
+does-bruise-bleed,Boolean,t/f
+gill-attachment,Nominal,"adnate=a, adnexed=x, decurrent=d, free=e, sinuate=s, pores=p, none=f, unknown=?"
+gill-spacing,Nominal,"close=c, distant=d, none=f"
+gill-color,Nominal,"brown=n, buff=b, gray=g, green=r, pink=p, purple=u, red=e, white=w, yellow=y, blue=l, orange=o, black=k, none=f"
+stem-height,Float,measurement in cm
+stem-width,Float,measurement in mm
+stem-root ,Nominal,"bulbous=b, swollen=s, club=c, cup=u, equal=e, rhizomorphs=z, rooted=r"
+stem-surface,Nominal,"fibrous=i, grooves=g, scaly=y, smooth=s, shiny=h, leathery=l, silky=k, sticky=t, wrinkled=w, fleshy=e, none=f"
+stem-color,Nominal,"brown=n, buff=b, gray=g, green=r, pink=p, purple=u, red=e, white=w, yellow=y, blue=l, orange=o, black=k"
+veil-type,Nominal,"partial = p, universal = u"
+veil-color,Nominal,"brown=n, buff=b, gray=g, green=r, pink=p, purple=u, red=e, white=w, yellow=y, blue=l, orange=o, black=k"
+has-ring,Boolean,t/f
+ring-type,Nominal,"cobwebby=c, evanescent=e, flaring=r, grooved=g, large=l, pendant=p, sheathing=s, zone=z, scaly=y, movable=m, none=f, unknown=?"
+spore-print-color,Nominal,"brown=n, buff=b, gray=g, green=r, pink=p, purple=u, red=e, white=w, yellow=y, blue=l, orange=o, black=k"
+habitat,Nominal,"grasses=g, leaves=l, meadows=m, paths=p, heaths=h, urban=u, waste=w, woods=d"
+season,Nominal,"spring=s, summer=u, autumn=a, winter=w"
